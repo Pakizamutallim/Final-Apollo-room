@@ -1,0 +1,23 @@
+
+.dashboard-pg{
+    .navigator-bar{
+        .container{
+            .row{
+                .navigator-bar-left{
+                    button{
+                        background-color: transparent;
+                        border: none;
+                        outline: none;
+                        i{
+                            color: black;
+                            font-size: 20px
+                        }
+                    }
+                }
+                .navigator-bar-right{
+                    
+                }
+            }
+        }
+    }
+}

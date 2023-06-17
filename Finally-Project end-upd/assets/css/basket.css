@@ -1,0 +1,336 @@
+header nav {
+  background-color: antiquewhite;
+  z-index: 1000;
+  width: 97%;
+  padding: 3%;
+}
+
+header nav .menu-bar {
+  display: none;
+  margin: 5%;
+}
+
+header nav .menu-bar i {
+  font-size: 40px;
+}
+
+header nav .hidden-menu {
+  display: none;
+  top: 0;
+  width: 30%;
+  height: 30rem;
+  z-index: 2;
+  -webkit-transition: 1s;
+  transition: 1s;
+  background-color: gray;
+}
+
+header nav .hidden-menu .close-btn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+  background: transparent;
+  border: none;
+}
+
+header nav .hidden-menu .close-btn:hover i {
+  color: white;
+}
+
+header nav .hidden-menu ul {
+  margin-top: 40%;
+}
+
+header nav .hidden-menu ul li {
+  list-style: none;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+header nav .hidden-menu ul li a {
+  text-decoration: none;
+  font-size: 25px;
+  color: black;
+  display: block;
+}
+
+header nav .hidden-menu ul li:hover {
+  background-color: #353434;
+}
+
+header nav .hidden-menu ul li:hover a {
+  color: #f1f1f1;
+}
+
+header nav .collapse {
+  padding-right: 1%;
+  margin-left: 2%;
+}
+
+header nav .collapse img {
+  width: 100px;
+}
+
+header nav .collapse ul .active a {
+  color: darkcyan;
+  font-size: 20px !important;
+  -webkit-text-decoration: wavy;
+          text-decoration: wavy;
+}
+
+header nav .collapse ul li a {
+  color: black;
+  font-size: 15px !important;
+}
+
+header nav .collapse ul li a i {
+  font-size: 10px;
+}
+
+header nav .collapse ul li a .down {
+  display: inline;
+}
+
+header nav .collapse ul li a .up {
+  display: none;
+}
+
+header nav .collapse ul li:hover {
+  border-bottom: solid 1px;
+}
+
+header nav .collapse ul li:hover a .down {
+  display: none;
+}
+
+header nav .collapse ul li:hover a .up {
+  display: inline;
+}
+
+header nav .collapse ul li:hover .sub-menu {
+  display: block;
+}
+
+header nav .collapse ul li:hover .sub-menu ul li {
+  list-style: none;
+}
+
+header nav .collapse ul li:hover .sub-menu ul li a {
+  text-decoration: none;
+}
+
+header nav .right-buttons {
+  padding-right: 5%;
+}
+
+header nav .right-buttons button {
+  position: relative;
+}
+
+header nav .right-buttons button i {
+  font-size: 25px;
+}
+
+header nav .right-buttons button .icon-count {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 20px;
+  height: 20px;
+  border-radius: 50px;
+  background-color: black;
+  color: white;
+  font-size: 12px;
+  position: absolute;
+  top: -2px;
+  right: -4px;
+}
+
+main section .container {
+  margin: 5%;
+}
+
+main section .container .card .row {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  position: relative;
+}
+
+main section .container .card .row .x-btn {
+  position: absolute;
+  right: 1px;
+  top: 40%;
+}
+
+main section .container .card .row .x-btn button {
+  height: 30%;
+  width: 100px;
+  margin: 2%;
+  -webkit-box-pack: center !important;
+      -ms-flex-pack: center !important;
+          justify-content: center !important;
+  padding: 1%;
+}
+
+main section .container .img {
+  background-image: url("https://hips.hearstapps.com/hmg-prod/images/posters-in-cozy-apartment-interior-royalty-free-image-943910360-1534189931.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+main .container {
+  margin: 5%;
+}
+
+main .container .card .row {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  position: relative;
+}
+
+main .container .card .row .x-btn {
+  position: absolute;
+  right: 1px;
+  top: 40%;
+}
+
+main .container .card .row .x-btn button {
+  height: 30%;
+  width: 100px;
+  margin: 2%;
+  -webkit-box-pack: center !important;
+      -ms-flex-pack: center !important;
+          justify-content: center !important;
+  padding: 1%;
+}
+
+main .container .img {
+  background-image: url("https://hips.hearstapps.com/hmg-prod/images/posters-in-cozy-apartment-interior-royalty-free-image-943910360-1534189931.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+footer {
+  margin-top: 10%;
+  background-color: #1c2331;
+}
+
+footer .socials {
+  background-color: #7c4dff;
+}
+
+footer hr {
+  width: 60px;
+  background-color: black;
+  height: 2px;
+}
+
+footer .info div .row .contact {
+  width: 60px;
+  background-color: black;
+  height: 2px;
+}
+
+footer .end {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 1200px) {
+  header nav {
+    position: absolute !important;
+    z-index: 1000;
+  }
+  header nav .collapse {
+    padding-right: 1%;
+    margin-left: 2%;
+  }
+  header nav .collapse img {
+    width: 80px;
+  }
+  header nav .collapse ul li a {
+    font-size: 12px !important;
+  }
+  header nav .right-buttons {
+    padding-right: 2%;
+  }
+}
+
+@media (max-width: 1024px) {
+  .join-email {
+    padding: 1%;
+  }
+  .join-email .join-text {
+    padding: 8% 1%;
+  }
+  .join-email .sofa-img {
+    height: 80vh;
+    background-image: url("https://caketheme.com/html/ruper/media/banner/newsletter-2.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  header nav .hidden-menu {
+    display: none;
+  }
+  header nav .collapse ul li {
+    text-align: center;
+  }
+  header nav .collapse ul li i {
+    font-size: 20px;
+  }
+  header nav .collapse ul li a {
+    font-size: 12px !important;
+  }
+  header nav .right-buttons {
+    padding-right: 2%;
+  }
+}
+
+@media (max-width: 767px) {
+  header nav .menu-bar {
+    display: block;
+  }
+  header nav .right-buttons {
+    padding-right: 10%;
+  }
+}
+
+@media (max-width: 600px) {
+  .join-email {
+    display: inline !important;
+    text-align: center;
+  }
+  .join-email .join-text {
+    margin: 1%;
+    width: 100% !important;
+  }
+  .join-email .sofa-img {
+    width: 100% !important;
+    height: 50vh;
+  }
+}
+
+@media (max-width: 425px) {
+  header nav .menu-bar {
+    display: block;
+  }
+  header nav .right-buttons {
+    padding-right: 10%;
+  }
+  header nav .right-buttons button i {
+    font-size: 20px;
+  }
+}
+/*# sourceMappingURL=basket.css.map */
