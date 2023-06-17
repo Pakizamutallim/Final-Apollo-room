@@ -1,0 +1,11 @@
+.dashboard-pg .navigator-bar .container .row .navigator-bar-left button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+.dashboard-pg .navigator-bar .container .row .navigator-bar-left button i {
+  color: black;
+  font-size: 20px;
+}
+/*# sourceMappingURL=admin.css.map */
